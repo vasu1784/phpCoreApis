@@ -1,0 +1,36 @@
+Api End Points:
+a). Users
+    
+    1). https://localhost/REST_APIS/Controller/v1/User/SignupController.php (User SignUP)
+
+    Method: POST
+    Params:
+        email
+        firstname
+        lastname
+        password
+        confirm_password
+    
+    2). https://localhost/REST_APIS/Controller/v1/user/UserLoginController.php (User Login) 
+
+    Method: POST
+    Params:
+        email
+        password
+
+b). Posts
+
+    1). https://localhost/REST_APIS/Controller/v1/post/CreatePostController.php (Create New Post)
+    
+    Method: POST
+    Params:
+        title
+        description
+        token
+        image
+
+    2). https://localhost/REST_APIS/Controller/v1/post/ShowPostController.php (Show Posts)
+
+    Method: POST
+    Params:
+        token
